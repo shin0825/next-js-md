@@ -1,11 +1,16 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "",
+  "title": "S.Nakamura Portfolio",
+  "description": "S.Nakamuraのプロフィールサイト、ブログ。",
+  "auther": "S.Nakamura",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
   },
-  "author": "",
   "license": "ISC"
 }
