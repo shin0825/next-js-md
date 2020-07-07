@@ -12,5 +12,8 @@
     "start": "next start",
     "export": "next export"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "remark": "^12.0.0"
+  }
 }
