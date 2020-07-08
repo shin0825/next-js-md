@@ -1,8 +1,13 @@
 import Layout from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 
 export default function Post({ postData }) {
+  const router = useRouter()
+  if (router.isFallback) {
+    return <div> NaN... </div>
+  }
   return (
     <Layout>
       <Head>
@@ -22,7 +27,7 @@ export async function getStaticPaths() {
   const paths = getAllPostIds()
   return {
     paths,
-    fallback: false
+    fallback: true
   }
 }
 
