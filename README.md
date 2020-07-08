@@ -13,3 +13,7 @@
 - https://qiita.com/tetsutaroendo/items/c7171286137d963cdecf
 
 - https://qiita.com/matamatanot/items/1735984f40540b8bdf91
+
+### 詰まったこと
+
+`app/pages/posts/index.js`から`app/lib/posts.js`をimportしたとき、importした関数が正しく使われてないと`Module not found: Error Can't resolve 'fs' ...`と出てきた。全然違うじゃん！*もうアイドルやめる！*
