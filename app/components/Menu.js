@@ -4,23 +4,35 @@ import Link from 'next/link';
 export default function Menu() {
   return (
     <nav className={styles.navigator}>
-      <ul className={styles.list}>
-        <li className={styles.item}>
-          <Link href="/">
-            <a className={styles.link}>Home</a>
-          </Link>
-        </li>
-        <li className={styles.item}>
-          <Link href="/about">
-            <a className={styles.link}>About</a>
-          </Link>
-        </li>
-        <li className={styles.item}>
-          <Link href="/posts">
-            <a className={styles.link}>Blog</a>
-          </Link>
-        </li>
-      </ul>
+      <div className={styles.menu}>
+        <ul className={styles.list}>
+          <li className={styles.item}>
+            <Link href="/">
+              <a className={styles.link}>Home</a>
+            </Link>
+          </li>
+          <li className={styles.item}>
+            <Link href="/about">
+              <a className={styles.link}>About</a>
+            </Link>
+          </li>
+          <li className={styles.item}>
+            <Link href="/posts">
+              <a className={styles.link}>Blog</a>
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul className={styles.list}>
+          <li className={styles.item}>
+            <a href="#" className={styles.link}>GH</a>
+          </li>
+          <li className={styles.item}>
+            <a href="#" className={styles.link}>TW</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   )
 }
