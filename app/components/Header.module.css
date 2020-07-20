@@ -1,8 +1,29 @@
 .header {
+  margin-left: 3vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
-  height: 86vh;
   font-family: Saira Extra Condensed;
+}
+
+.header ul {
+  margin-top: 6vh;
+  padding: 0.75em 0;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: left;
+  list-style: none;
+  width:100%;
+}
+
+.header ul h1 {
+  margin: 1vh;
+  padding: 0;
+  font-size: 48px;
+}
+
+.header ul p {
+  margin: 1vh;
+  padding: 0;
 }

@@ -5,7 +5,7 @@ const info = require('../package.json')
 export default function Footer() {
   return (
     <div className={styles.footer}>
-      <span>{info.auther}</span>
+      <span>{info.title}&nbsp;-&nbsp;&copy;{(new Date).getFullYear()} {info.auther}</span>
     </div>
   )
 }
