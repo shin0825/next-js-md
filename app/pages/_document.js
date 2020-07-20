@@ -10,13 +10,12 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link
-            href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel='stylesheet'
-          />
-          <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel='stylesheet'
-          />
+          <style>
+          </style>
+          <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel='stylesheet' />
+          <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel='stylesheet' />
         </Head>
-        <body>
+        <body style={{padding:0, margin:0}}>
           <Main />
           <NextScript />
         </body>

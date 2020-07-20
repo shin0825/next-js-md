@@ -1,6 +1,5 @@
 import styles from './Layout.module.css';
 import Menu from '../components/Menu';
-import Footer from '../components/Footer';
 import Link from 'next/link'
 
 export default function Layout({ children, home }) {
@@ -15,7 +14,6 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-      <Footer/>
     </div>
   )
 }
