@@ -8,15 +8,17 @@ export default function Layout({ children, home }) {
   return (
     <div className = { styles.container }>
       <Menu />
-      <Header/>
-      <main>{ children }</main>
-      {!home && (
-        <div>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
+      <Header />
+      <div className = { styles.children }>
+        <main>{ children }</main>
+        {!home && (
+          <div>
+            <Link href="/">
+              <a>← Back to home</a>
+            </Link>
+          </div>
+        )}
         </div>
-      )}
       <Footer/>
     </div>
   )
