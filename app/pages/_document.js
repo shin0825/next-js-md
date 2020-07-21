@@ -13,9 +13,9 @@ class MyDocument extends Document {
           <style>
           </style>
           <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel='stylesheet' />
-          <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel='stylesheet' />
+          <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet" />
         </Head>
-        <body style={{padding:0, margin:0}}>
+        <body style={{padding:0, margin:0, 'font-family':"'M PLUS Rounded 1c'"}}>
           <Main />
           <NextScript />
         </body>
