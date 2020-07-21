@@ -13,7 +13,7 @@ export async function getStaticProps() {
 
 export default function Index({ allPostsData }) {
   return (
-    <Layout home>
+    <Layout>
       <h2>POSTS</h2>
         {allPostsData.map(({ id, title, date }) => (
           <li key={id}>
