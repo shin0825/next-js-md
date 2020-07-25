@@ -19,6 +19,7 @@ RUN npm install --save remark
 RUN npm install --save remark-html
 RUN npm install --save react-markdown
 RUN npm install --save gray-matter
+RUN npm install --save @fortawesome/fontawesome-free
 
 # Copying source files
 COPY . /usr/src/app
