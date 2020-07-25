@@ -5,7 +5,9 @@ export default function Index() {
   return (
     <div>
       <Layout home>
-        <h1 className={styles.midashi}>🤔</h1>
+        <div className={styles.midashi}>
+          <img src="/qrcode.png" alt="qrcode include URL of this page" />
+        </div>
       </Layout>
     </div>
   )
