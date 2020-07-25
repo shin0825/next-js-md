@@ -1,5 +1,4 @@
 .header {
-  margin-left: 3vh;
   display: flex;
   flex-direction: column;
   align-items: baseline;
@@ -8,11 +7,12 @@
 }
 
 .header ul {
-  margin-top: 6vh;
+  margin: 7vh 0 0 0;
   padding: 0.75em 0;
-  display: block;
+  display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   width:100%;
 }
@@ -23,7 +23,8 @@
   font-size: 48px;
 }
 
-.header ul p {
-  margin: 1vh;
-  padding: 0;
+.header ul a {
+  color: #333333;
+  font-size: 24px;
+  padding: 0 0.25em;
 }
