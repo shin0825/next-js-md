@@ -1,5 +1,5 @@
 import styles from './Header.module.css'
-import Menu from '../components/Menu'
+
 const info = require('../package.json')
 
 export default function Header() {

@@ -23,16 +23,6 @@ export default function Menu() {
           </li>
         </ul>
       </div>
-      <div>
-        <ul className={styles.list}>
-          <li className={styles.item}>
-            <a href="#" className={styles.link}>GH</a>
-          </li>
-          <li className={styles.item}>
-            <a href="#" className={styles.link}>TW</a>
-          </li>
-        </ul>
-      </div>
     </nav>
   )
 }
