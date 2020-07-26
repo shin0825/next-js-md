@@ -10,6 +10,8 @@
 
 ### コーディングの参考
 
+- https://nextjs.org/learn/basics/create-nextjs-app
+
 - https://qiita.com/oekaki-hoho-ron/items/f6761b8438445fc0cdde
 
 - https://qiita.com/tetsutaroendo/items/c7171286137d963cdecf
