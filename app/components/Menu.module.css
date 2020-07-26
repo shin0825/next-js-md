@@ -1,13 +1,13 @@
 .navigator {
   position: fixed;
-  top: 0;
-  left: 0;
+  left: 0px;
+  bottom: 0px;
   z-index: 100;
   width: 100%;
   background-color: #fff;
   box-shadow: 0 0.25em 0.25em -0.25em rgba(0, 0, 0, .2);
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .menu {

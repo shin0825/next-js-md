@@ -5,10 +5,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 5em;
+  height: 100vh;
   font-family: Saira Extra Condensed;
+  margin: 12vh 0 0 0;
 }
 
 .footer span {
-  margin: 0.25em;
+  margin: 5vh;
+  flex: auto;
 }
