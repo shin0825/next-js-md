@@ -12,5 +12,10 @@
 
 .footer span {
   margin: 5vh;
-  flex: auto;
+  flex: 1;
+}
+
+.footer p {
+  flex: 2;
+  font-size: 100px;
 }

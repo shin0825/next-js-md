@@ -1,0 +1,9 @@
+.context p {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  font-family: Saira Extra Condensed;
+}
