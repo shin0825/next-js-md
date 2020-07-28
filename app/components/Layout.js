@@ -4,17 +4,24 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Link from 'next/link'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, post }) {
   return (
     <div className = { styles.container }>
       <Menu />
       <Header />
       <div className = { styles.children }>
         <main>{ children }</main>
-        {!home && (
+        {(!home && !post) && (
           <div>
             <Link href="/">
               <a>← Back to home</a>
+            </Link>
+          </div>
+        )}
+        {post && (
+          <div>
+            <Link href="/posts">
+              <a>← Back to posts</a>
             </Link>
           </div>
         )}

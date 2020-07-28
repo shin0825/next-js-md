@@ -9,7 +9,7 @@ export default function Post({ postData }) {
     return <div> NaN... </div>
   }
   return (
-    <Layout>
+    <Layout post>
       <Head>
         <title>{postData.title}</title>
       </Head>
