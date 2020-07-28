@@ -1,13 +1,12 @@
 .footer {
-  color: #eeeeee;
-  background-color: #666666;
+  color: #333333;
+  background-color: #999999;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   font-family: Saira Extra Condensed;
-  margin: 12vh 0 0 0;
 }
 
 .footer span {

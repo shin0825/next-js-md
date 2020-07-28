@@ -11,7 +11,7 @@ export default function Index() {
           <p>SQL Server / PostgreSQL</p>
           <p>git / Docker
           </p>
-          <img src="/qrcode.png" alt="qrcode include URL of this page" />
+          <img src="/qrcode.png" alt="qrcode include URL of this page" className={styles.qrcode} />
         </div>
       </Layout>
     </div>
