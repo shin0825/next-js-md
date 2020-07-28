@@ -1,7 +1,8 @@
 .container {
   margin: 0 auto;
   height: 100vh;
-  background: #fff;
+  color: #eeeeee;
+  background-color: #666666;
   text-align: center;
 }
 
@@ -9,4 +10,12 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+.backLink {
+  padding: 2em;
+}
+
+.backLink a {
+  color: #333333;
 }

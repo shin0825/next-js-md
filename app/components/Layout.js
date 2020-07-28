@@ -12,14 +12,14 @@ export default function Layout({ children, home, post }) {
       <div className = { styles.children }>
         <main>{ children }</main>
         {(!home && !post) && (
-          <div>
+          <div className = { styles.backLink }>
             <Link href="/">
               <a>← Back to home</a>
             </Link>
           </div>
         )}
         {post && (
-          <div>
+          <div className = { styles.backLink }>
             <Link href="/posts">
               <a>← Back to posts</a>
             </Link>
