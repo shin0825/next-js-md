@@ -1,6 +1,7 @@
 import Layout from '../../components/Layout'
 import { getSortedPostsData } from '../../lib/posts'
 import Link from 'next/link'
+import styles from './index.module.css'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -14,14 +15,16 @@ export async function getStaticProps() {
 export default function Index({ allPostsData }) {
   return (
     <Layout>
-      <h2>POSTS</h2>
+      <h2 className={styles.title}>ちょっとしたメモ書き</h2>
         {allPostsData.map(({ id, title, date }) => (
-          <li key={id}>
-            <Link href="/posts/[id]" as={`/posts/${id}`}>
-              <a>{title}</a>
-            </Link>
+          <div className={styles.table}>
+            <h3 key={id}>
+              <Link href="/posts/[id]" as={`/posts/${id}`}>
+                <a className={styles.link}>{title}</a>
+              </Link>
+            </h3>
             <p>{date}</p>
-          </li>
+          </div>
         ))}
     </Layout>
   )

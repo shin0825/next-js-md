@@ -2,6 +2,7 @@ import Layout from '../../components/Layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
+import styles from './[post].module.css'
 
 export default function Post({ postData }) {
   const router = useRouter()
@@ -15,9 +16,10 @@ export default function Post({ postData }) {
       </Head>
       <article>
         <h1>{postData.title}</h1>
+        <p>{postData.date}</p>
         <div>
         </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div className={styles.article} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
   )
