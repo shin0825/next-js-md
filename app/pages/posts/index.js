@@ -18,12 +18,12 @@ export default function Index({ allPostsData }) {
       <h2 className={styles.title}>ちょっとしたメモ書き</h2>
         {allPostsData.map(({ id, title, date }) => (
           <div className={styles.table}>
+            <p>{date}</p>
             <h3 key={id}>
               <Link href="/posts/[id]" as={`/posts/${id}`}>
                 <a className={styles.link}>{title}</a>
               </Link>
             </h3>
-            <p>{date}</p>
           </div>
         ))}
     </Layout>

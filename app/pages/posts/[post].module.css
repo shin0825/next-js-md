@@ -1,7 +1,16 @@
 .article {
   margin: 0;
-  padding: 30px 10%;
-  color: #333333;
-  background-color: #999999;
+  padding: 10px 5% 50px 5%;
+  color: #1f1f1f;
+  background-color: #9a9a9a;
   text-align: left;
+}
+
+.main {
+  margin: 0;
+  padding: 15px 10%;
+  color: #cccccc;
+  background-color: #333333;
+  text-align: left;
+  border-radius: 15px;
 }

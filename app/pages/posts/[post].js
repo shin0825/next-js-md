@@ -14,12 +14,12 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article>
+      <article className={styles.article}>
         <h1>{postData.title}</h1>
         <p>{postData.date}</p>
         <div>
         </div>
-        <div className={styles.article} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div className={styles.main} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
   )
