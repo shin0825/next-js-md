@@ -17,4 +17,5 @@
 
 .main a {
   color: #cccccc;
+  word-break: break-all;
 }
