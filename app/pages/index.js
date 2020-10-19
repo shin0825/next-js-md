@@ -1,5 +1,6 @@
 import Layout from '../components/Layout'
 import styles from './index.module.css'
+import Link from 'next/link';
 
 export default function Index() {
   return (
@@ -12,6 +13,16 @@ export default function Index() {
           <p>git / Docker
           </p>
           <img src="/qrcode.png" alt="qrcode include URL of this page" className={styles.qrcode} />
+            <h2 className={styles.title}>
+              <Link href="/about">
+                <a className={styles.link}>About</a>
+              </Link>
+            </h2>
+            <h2 className={styles.title}>
+              <Link href="/posts">
+                <a className={styles.link}>Blog</a>
+              </Link>
+            </h2>
         </div>
       </Layout>
     </div>
