@@ -19,3 +19,9 @@
   color: #cccccc;
   word-break: break-all;
 }
+
+.main code {
+  background: #0f0f0f;
+  padding: 10px;
+  border-radius: 3px;
+}
