@@ -4,6 +4,7 @@
   color: #1f1f1f;
   background-color: #9a9a9a;
   text-align: left;
+  overflow-wrap: break-word;
 }
 
 .main {
@@ -20,8 +21,10 @@
   word-break: break-all;
 }
 
-.main code {
+.main pre {
   background: #0f0f0f;
   padding: 10px;
   border-radius: 3px;
+  line-height: 24px;
+  white-space: break-spaces;
 }
