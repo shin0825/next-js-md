@@ -28,3 +28,10 @@
   line-height: 24px;
   white-space: break-spaces;
 }
+
+.main pre code {
+  background: #0f0f0f;
+  padding: 10px;
+  border-radius: 3px;
+  line-height: 24px;
+}
