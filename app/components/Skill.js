@@ -1,15 +1,28 @@
 import styles from './Skill.module.css'
 
-const Skill = () => (
-  <div className={styles.skill}>
-    <script type="text/javascript" src="/static/hello.js"></script>
-    <select>
-      <option value="grapefruit">Grapefruit</option>
-      <option value="lime">Lime</option>
-      <option selected value="coconut">Coconut</option>
-      <option value="mango">Mango</option>
-    </select>
-  </div>
-);
+export default function Skill({ id, title, date }) {
+  return (
+    <div>
+      <div className={styles.container}>
+        <div className={styles.label}>
+          <p>
+            {title}
+          </p>
+          <div>
+            <p className={styles.title}>{date}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
 
-export default Skill;
+export async function getStaticProps({ id, title, date }) {
+  return {
+    props: {
+      id,
+      title,
+      date
+    }
+  }
+}
