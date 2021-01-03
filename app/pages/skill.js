@@ -17,11 +17,9 @@ export default function Index({ allSkillsData }) {
   return (
     <Layout>
       <h2 className={styles.title}>スキルセット</h2>
-      <div className={styles.flexbox}>
-        {allSkillsData.map(({ id, title, date }) => (
-          <Skill id={id} title={title} date={date} />
-        ))}
-      </div>
+      {allSkillsData.map(({ id, title, date, context }) => (
+        <Skill id={id} title={title} date={date} context={context} />
+      ))}
     </Layout>
   )
 }

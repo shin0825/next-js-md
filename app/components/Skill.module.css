@@ -34,6 +34,7 @@
   padding: 5px;
   text-align: left;
   word-wrap: normal;
+  width: 30%;
 }
 
 .text a {
@@ -62,4 +63,15 @@
   width: 250px;
   border-radius: 1%;
   border-style: groove;
+}
+
+.pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0px;
+}
+
+.code {
+  font-family: monospace;
 }
