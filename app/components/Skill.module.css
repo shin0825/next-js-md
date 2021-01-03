@@ -22,11 +22,12 @@
 .image {
   margin: 15px;
   padding: 5px;
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   border: 5px;
-  border-radius: 50%;
+  border-radius: 5%;
   border-style: dashed;
+  background-color: #cccccc;
 }
 
 .text {

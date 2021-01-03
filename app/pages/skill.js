@@ -17,8 +17,9 @@ export default function Index({ allSkillsData }) {
   return (
     <Layout>
       <h2 className={styles.title}>スキルセット</h2>
-      {allSkillsData.map(({ id, title, date, context }) => (
-        <Skill id={id} title={title} date={date} context={context} />
+      <h4 className={styles.link}>svg images by <a href="https://svgporn.com/">SVG PORN</a></h4>
+      {allSkillsData.map(({ id, image, title, date_from, date_to, context }) => (
+        <Skill id={id} image={image} title={title} date_from={date_from} date_to={date_to} context={context} />
       ))}
     </Layout>
   )
