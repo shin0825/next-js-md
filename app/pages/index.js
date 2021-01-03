@@ -7,20 +7,22 @@ export default function Index() {
     <div>
       <Layout home>
         <div className = { styles.context }>
-          <p>programmer</p>
-          <p>C#.NET / Java / Ruby / Javascript</p>
-          <p>SQL Server / PostgreSQL</p>
-          <p>git / Docker
-          </p>
           <img src="/qrcode.png" alt="qrcode include URL of this page" className={styles.qrcode} />
             <h2 className={styles.title}>
               <Link href="/about">
-                <a className={styles.link}>About</a>
+                <a className={styles.link}>
+                  About<p>S.Nakamuraについて</p>
+                </a>
+              </Link>
+            </h2>
+            <h2 className={styles.title}>
+              <Link href="/skill">
+                <a className={styles.link}>Skill<p>スキルセット（書きかけ）</p></a>
               </Link>
             </h2>
             <h2 className={styles.title}>
               <Link href="/posts">
-                <a className={styles.link}>Blog</a>
+                <a className={styles.link}>Blog<p>アウトプットの練習やボヤき</p></a>
               </Link>
             </h2>
         </div>

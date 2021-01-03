@@ -17,6 +17,11 @@ export default function Menu() {
             </Link>
           </li>
           <li className={styles.item}>
+            <Link href="/skill">
+              <a className={styles.link}>Skill</a>
+            </Link>
+          </li>
+          <li className={styles.item}>
             <Link href="/posts">
               <a className={styles.link}>Blog</a>
             </Link>
