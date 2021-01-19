@@ -23,7 +23,9 @@
 .image {
   margin: 15px;
   padding: 5px;
-  width: 325px;
+  width: 80%;
+  min-width: 280px;
+  max-width: 400px;
   height: 120px;
   border: 5px;
   border-radius: 8px;
@@ -35,8 +37,9 @@
   margin: 10px 15px 10px 15px;
   padding: 5px;
   text-align: left;
-  word-wrap: normal;
-  width: 400px;
+  width: 80%;
+  min-width: 280px;
+  max-width: 400px;
 }
 
 .text a {
@@ -64,7 +67,7 @@
 .pre {
   display: block;
   font-family: monospace;
-  white-space: pre;
+  white-space: break-spaces;
   margin: 1em 0px;
 }
 
