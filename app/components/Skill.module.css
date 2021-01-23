@@ -33,6 +33,10 @@
   background-color: #cccccc;
 }
 
+.image p {
+  color: #666666;
+}
+
 .text {
   margin: 10px 15px 10px 15px;
   padding: 5px;
