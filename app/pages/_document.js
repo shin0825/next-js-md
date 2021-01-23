@@ -10,9 +10,10 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel='stylesheet' />
           <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel='stylesheet' />
         </Head>
-        <body style={{margin:0, padding:0}}>
+        <body style={{ margin: 0, padding: 0 }}>
           <Main />
           <NextScript />
         </body>

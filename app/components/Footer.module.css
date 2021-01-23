@@ -6,6 +6,9 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+.footer p {
   font-family: Saira Extra Condensed;
 }
 
