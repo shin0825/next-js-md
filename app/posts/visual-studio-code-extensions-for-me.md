@@ -60,3 +60,9 @@ pythonならインデントを整えてくれるし、javascriptなら波括弧�
 インデントが階層ごとに色分けされてわかりやすい。
 
 pythonでは特に重宝する。
+
+## [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
+
+E-R図やレイアウト図などさまざま作図に使えるツールのVSCode拡張機能バージョン。
+
+コードを書いている途中に.dioファイルつくるだけで作図できるのは便利すぎる……！
