@@ -1,6 +1,6 @@
 import styles from './Skill.module.css'
 
-export default function Skill({ id, image, title, date_from, date_to, context }) {
+export default function Skill({ image, title, date_from, date_to, context }) {
   return (
     <div className={styles.main}>
       {(image) && (<img src={image} className={styles.image} />)}
@@ -16,16 +16,4 @@ export default function Skill({ id, image, title, date_from, date_to, context })
       </div>
     </div>
   )
-}
-
-export async function getStaticProps({ id, title, date_from, date_to, context }) {
-  return {
-    props: {
-      id,
-      title,
-      date_from,
-      date_to,
-      context
-    }
-  }
 }
