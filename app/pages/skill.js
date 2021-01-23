@@ -17,12 +17,12 @@ export async function getStaticProps() {
 export default function Index({ techSkillsData, engineeringSkillDatas }) {
   return (
     <Layout>
-      <h2 className={styles.title}>テクニカルスキル</h2>
+      <h2 className={styles.title}>テクニカルスキル [2021/01 書きかけ]</h2>
       <h4 className={styles.link}>svg images by <a href="https://svgporn.com/">SVG PORN</a></h4>
       {techSkillsData.map(({ image, title, date_from, date_to, context }) => (
         <Skill image={image} title={title} date_from={date_from} date_to={date_to} context={context} />
       ))}
-      <h2 className={styles.title}>エンジニアリングスキル</h2>
+      <h2 className={styles.title}>エンジニアリングスキル [2021/01 書きかけ]</h2>
       {engineeringSkillDatas.map(({ image, title, date_from, date_to, context }) => (
         <Skill image={image} title={title} date_from={date_from} date_to={date_to} context={context} />
       ))}
