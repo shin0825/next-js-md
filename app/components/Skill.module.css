@@ -31,9 +31,13 @@
   border-radius: 8px;
   border-style: dashed;
   background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image p {
+  font-size: 24px;
   color: #666666;
 }
 
