@@ -66,3 +66,9 @@ pythonでは特に重宝する。
 E-R図やレイアウト図などさまざま作図に使えるツールのVSCode拡張機能バージョン。
 
 コードを書いている途中に.dioファイルつくるだけで作図できるのは便利すぎる……！
+
+## [Hex Editor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor)
+
+MS社謹製の拡張機能。（[Issue](https://github.com/microsoft/vscode-hexeditor/issues)も結構上がってる）
+
+手軽にバイナリファイルを開けるだけでかなりありがたい。文字列と16進数の相互入力ができるのもありがたい。
