@@ -11,7 +11,7 @@ export default function Post({ postData }) {
   }
   return (
     <Layout post>
-      <Head title={postData.title} />
+      <Head title={postData.title} url={"/posts/" + postData.id} />
       <article className={styles.article}>
         <h1>{postData.title}</h1>
         <p>{postData.date}</p>
