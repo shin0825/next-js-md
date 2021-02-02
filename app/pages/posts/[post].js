@@ -1,6 +1,6 @@
 import Layout from '../../components/Layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
-import Head from 'next/head'
+import Head from '../../components/Head'
 import { useRouter } from 'next/router'
 import styles from './[post].module.css'
 
@@ -11,9 +11,7 @@ export default function Post({ postData }) {
   }
   return (
     <Layout post>
-      <Head>
-        <title>{postData.title}</title>
-      </Head>
+      <Head title={postData.title} />
       <article className={styles.article}>
         <h1>{postData.title}</h1>
         <p>{postData.date}</p>
