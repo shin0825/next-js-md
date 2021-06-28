@@ -1,5 +1,5 @@
 ---
-title: (仮)SQLServerのトランザクションログについて
+title: SQLServerのトランザクションログについて
 permalink: transactionlog-of-sqlserver
 date: '2021-03-11'
 category: 技術
