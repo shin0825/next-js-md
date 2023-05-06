@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:18
 
 ENV PORT 3000
 
@@ -12,7 +12,6 @@ RUN npm install
 RUN npm install --save next react react-dom
 RUN npm install --save-dev typescript prettier eslint eslint-plugin-prettier eslint-config-prettier eslint-plugin-react npm-run-all
 RUN npm install --save-dev jest ts-jest
-RUN npm install --save-dev @zeit/next-sass node-sass
 RUN npm install --save @material-ui/core @material-ui/icons react-jss
 RUN npm install --save-dev raw-loader
 RUN npm install --save remark
