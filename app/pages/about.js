@@ -49,7 +49,7 @@ export default function About() {
             <img src="/nameless.png" alt="my photo" className={styles.siteimage} />
             <div className={styles.text}>
               <h2>記事のURLを投げるとタイトルを取ってきて一緒に保存してくれるアプリ</h2>
-              <a href="https://nameless-tundra-72223.herokuapp.com/">https://nameless-tundra-72223.herokuapp.com/</a>
+              <s>https://nameless-tundra-72223.herokuapp.com/</s>
               <p>
                 あとで読みたい記事のURLとタイトルだけを保存してくれるアプリ。<br />
                 溜まる一方。
@@ -72,7 +72,7 @@ export default function About() {
             <img src="/otogemap.png" alt="my photo" className={styles.siteimage} />
             <div className={styles.text}>
               <h2>音ゲーマップ</h2>
-              <a href="https://otogemap.herokuapp.com/">https://otogemap.herokuapp.com/</a>
+              <a href="https://otogemap.fly.dev/">https://otogemap.fly.dev/</a>
               <p>
                 ゲーセンに設置されているIIDXの情報を<br />
                 データベース化したいと思い開発。<br />
